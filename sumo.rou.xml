@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-08-01 09:52:44 by Eclipse SUMO duarouter Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\flihi\Desktop\car\sumo.net.xml"/>
+        <route-files value="C:\Users\flihi\Desktop\car\sumo.flow.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\flihi\Desktop\car\sumo.rou.xml"/>
+        <alternatives-output value="C:\Users\flihi\Desktop\car\sumo.rou.alt.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="type1" length="5.00" maxSpeed="70.00" accel="10" decel="4.5"/>
+    <vehicle id="0" type="type1" depart="0.00" color="red">
+        <route edges="100552490 99269546_1 99269546_2 99269546_3 82226791_5 82226791_2 82226791_7 82226791_4 82226791_6 82226791_1"/>
+    </vehicle>
+    <vehicle id="1" type="type1" depart="1.00" color="green">
+        <route edges="172226994 100552490 99269546_1"/>
+    </vehicle>
+</routes>

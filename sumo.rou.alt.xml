@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-08-01 09:52:44 by Eclipse SUMO duarouter Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\flihi\Desktop\car\sumo.net.xml"/>
+        <route-files value="C:\Users\flihi\Desktop\car\sumo.flow.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\flihi\Desktop\car\sumo.rou.xml"/>
+        <alternatives-output value="C:\Users\flihi\Desktop\car\sumo.rou.alt.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="type1" length="5.00" maxSpeed="70.00" accel="10" decel="4.5"/>
+    <vehicle id="0" type="type1" depart="0.00" color="red">
+        <routeDistribution last="1">
+            <route cost="175.32" probability="0.48926744" edges="100552490 99269546_1 99269546_2 99269546_3 82226791_5 82226786_1 82226786_2 82226786_3 83661227_6 83661227_5 83661227_4 83661227_2 83661240_1 99269432_1 99269432_3 99269432_5 83661254_3 83661229_6 83661229_4 99269581_1 99269441_1 99269441_3 99269441_4 99269441_2 500404842_1 500404842_2 83661229_2 83661229_5 83661233_1 83661233_2 82226791_6 82226789_1 82226791_1"/>
+            <route cost="47.32" probability="0.51073256" edges="100552490 99269546_1 99269546_2 99269546_3 82226791_5 82226791_2 82226791_7 82226791_4 82226791_6 82226791_1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1" type="type1" depart="1.00" color="green">
+        <routeDistribution last="0">
+            <route cost="12.80" probability="1.00000000" edges="172226994 100552490 99269546_1"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

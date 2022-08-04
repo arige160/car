@@ -1,0 +1,19 @@
+<routes>
+    <vType id="type1" accel="10" decel="4.5" length="5" maxSpeed="70"/>
+
+    <vehicle id="0" type="type1" depart="0" color="1,0,0">
+      <route edges="100552490 99269546_1 99269546_2 99269546_3 82226791_5 82226786_1 82226786_2 82226786_3 83661227_6 83661227_5 83661227_4 83661227_2 83661240_1 99269432_1 99269432_3 99269432_5 83661254_3 83661229_6 83661229_4 99269581_1 99269441_1 99269441_3 99269441_4 99269441_2 500404842_1 500404842_2 83661229_2 83661229_5 83661233_1 83661233_2 82226791_6 82226791_1 82226789_1"/>
+	  <stop busStop="bs_0" duration="5"/>
+	  <stop busStop="bs_1" duration="5"/>
+	  <stop busStop="bs_2" duration="5"/>
+	  <stop busStop="bs_3" duration="5"/>
+	  <stop busStop="bs_4" duration="5"/>
+	  <stop busStop="bs_5" duration="5"/>
+	  <stop busStop="bs_6" duration="5"/>
+	  <stop busStop="bs_7" duration="5"/>
+    </vehicle>
+	<vehicle id="1" type="type1" depart="1" color="0,1,0">
+		<route edges="172226994 100552490 99269546_1 "/>
+	</vehicle>
+
+</routes>
